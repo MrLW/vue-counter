@@ -21,7 +21,9 @@ const actions = {
     decrement : ({commit}) => {commit('decrement')}
 }
 
-const getters = {}
+const getters = {
+    evenOrOdd:state=>state.count % 2 === 0 ? 'even' : 'odd'
+}
 
 export default new Vuex.Store({
     state,
