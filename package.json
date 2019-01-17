@@ -1,0 +1,29 @@
+{
+  "name": "vue-counter",
+  "version": "1.0.0",
+  "description": "基于vue+webapck的计数器学习",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --hot",
+    "build": "webpack --progress --hide-modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrLW/vue-counter.git"
+  },
+  "author": "leekwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrLW/vue-counter/issues"
+  },
+  "homepage": "https://github.com/MrLW/vue-counter#readme",
+  "dependencies": {
+    "vue": "^2.5.22",
+    "webpack-cli": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.28.4",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
